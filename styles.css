@@ -7,6 +7,7 @@ body {
 /*======= Header =====*/
 #header{
   text-align: center;
+  letter-spacing: 5px;
 }
 
 /*===== Top Menu =====*/
@@ -42,33 +43,57 @@ body {
 #logo {
   /*height: 500px;
   width: 500px;*/
+  margin-top: 20px;
 }
 
 /*===== Modal ========*/
 #primeModal {
   display: none;
   position: fixed;
-  width: 500px;
+  width: 521px;
   height: 200px;
   top: 150px;
   left: 225px;
   background-color: #ACACAC;
   z-index: 5;
+  border-radius: 10px;
+  /*border: 1px solid black;*/
 }
 
 #modalTxt {
   background-color: #415DE5;
-  position: relative;
-  margin: 10px auto;
+  /*position: relative;*/
+  margin: auto;
+  margin-top: 60px;
   padding: 2px;
   border: 1px solid black;
   height: 60px;
   width: 80%;
+  /*line-height: 200px;*/
   text-align: center;
+  border-radius: 10px;
+}
+
+#modalTxt > p {
+  color: white;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 17px;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
 #exit {
-  
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 4px;
+}
+#exit:hover,
+#exit:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*========= Footer =========*/
