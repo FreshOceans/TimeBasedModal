@@ -1,9 +1,32 @@
-// var modal = document.getElementById("primeModal");
+var displayModal = document.getElementById("primeModal");
+var span = document.getElementsById("close");
+
+
+window.addEventListener("load", function(event) {
+  console.log("All resources finished loading!");
+});
+
+
+
+// window.setTimeout(function, milliseconds);
+
+
+
+
+
+
+
+
+
+
+
+// ====== Modal Exit ======
+// span.onclick = function() {
+//   console.log("Button Exit");
+//     modal.style.display = "none";
 //
-// // var span = document.getElementsByClassName("close")[0];
-//
-// // When the user clicks anywhere outside of the modal, close it
 // window.onclick = function(event) {
+//   console.log("Window Exit");
 //     if (event.target == modal) {
 //         modal.style.display = "none";
 //     };
