@@ -1,14 +1,16 @@
-var displayModal = document.getElementById("primeModal");
-var span = document.getElementsById("close");
+window.addEventListener("load", showModalDiv);
+
+function showModalDiv(){
+  console.log("== showModalDiv ==");
+  var modalEl = document.getElementById("primeModal");
+  console.log("displayModal:", modalEl);
+  setTimeout(displayModal, 3000);
+}
+function displayModal(){
+  console.log("displayModal");
+}
 
 
-window.addEventListener("load", function(event) {
-  console.log("All resources finished loading!");
-});
-
-
-
-// window.setTimeout(function, milliseconds);
 
 
 
