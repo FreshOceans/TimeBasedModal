@@ -46,22 +46,29 @@ body {
 
 /*===== Modal ========*/
 #primeModal {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100px;
-  height: 100px;
-  /*overflow: auto;*/
-  background-color: red;
-  /*z-index: 5;*/
+  display: none;
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 150px;
+  left: 225px;
+  background-color: #ACACAC;
+  z-index: 5;
 }
+
 #modalTxt {
-    background-color: green;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: #415DE5;
+  position: relative;
+  margin: 10px auto;
+  padding: 2px;
+  border: 1px solid black;
+  height: 60px;
+  width: 80%;
+  text-align: center;
+}
+
+#exit {
+  
 }
 
 /*========= Footer =========*/
